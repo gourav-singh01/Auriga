@@ -20,6 +20,7 @@ A simple, responsive habit-tracking web application built for Ananya's 75-day se
 * Restore archived habits
 * View completion history for individual habits
 * 75-day challenge progress indicator
+* In-app morning reminder for habits that are still incomplete for the current day
 * Responsive design for desktop and mobile screens
 * Export and import habit data
 
@@ -35,9 +36,12 @@ No external backend or database is required.
 ## How to Run
 
 1. Clone or open this repository in GitHub Codespaces.
-2. Open `index.html`.
-3. Run the project using a local development server, such as the VS Code Live Server extension, or open `index.html` directly in a browser.
-4. Start creating and tracking habits.
+2. Open the project files in the Codespace.
+3. Run the project using a local development server, such as the VS Code Live Server extension.
+4. Open the application in a browser.
+5. Start creating and tracking habits.
+
+The application can also be opened directly by opening `index.html` in a browser.
 
 ## How to Use
 
@@ -47,7 +51,7 @@ Click **Add Habit**, enter the habit name, choose Daily or Weekdays frequency, s
 
 ### Track Completion
 
-Today's scheduled habits are displayed on the Active tab. Use the completion button to mark a habit as done. The completion status is stored by date.
+Today's scheduled habits are displayed on the Active tab. Use the completion button to mark a habit as done or incomplete. The completion status is stored by date.
 
 ### Track Streaks
 
@@ -68,6 +72,14 @@ Use the search field to quickly find a habit by name.
 ### History
 
 Open a habit's history to review its recorded completion dates.
+
+### Morning Reminder
+
+When the application is opened, it checks today's scheduled habits. If any scheduled habits are still incomplete, an in-app reminder is shown to remind the user to log them.
+
+### Export and Import
+
+Use the export option to create a backup of the habit data. The exported data can be imported later to restore the saved habits.
 
 ## Data Storage
 
@@ -98,3 +110,5 @@ auriga/
 ## Project Goal
 
 The main focus of the application is reliable habit logging and streak tracking, while keeping the daily experience simple: open the app, see today's habits, and tick them off one by one.
+
+The application is designed around the key needs identified in the challenge: daily habit visibility, reliable streak tracking, easy habit management, and reminders for habits that still need to be logged.
