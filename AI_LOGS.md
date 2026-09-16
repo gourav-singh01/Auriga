@@ -1,7 +1,5 @@
 # AI_LOGS.md
 
-## Reconstructed AI-Assisted Development Prompts
-
 ### Prompt 1
 
 i have a builder round today and the problem statement is about a 75 day habit tracker. read the problem properly and tell me what all features i should make from it. also tell me what things are implied in the statement.
